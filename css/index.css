@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+html body{
+    overflow: hidden;
+}
+.banner{
+    width: 1226px;
+    height: 460px;
+    margin:100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner img:nth-child(n+2){
+    position: absolute;
+    right: -1226px;
+    bottom: 0;
+}
+.left{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url(../img/icon-slides.png) no-repeat;
+    background-position: -83px 0;
+    z-index: 100;
+}
+.right{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: url(../img/icon-slides.png) no-repeat;
+    background-position: -126px 0;
+    z-index: 100;
+}
+.piotin{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    right:40px;
+    bottom:20px;
+}
+.pointny{
+    width: 6px;
+    height: 6px;
+    background: #948F86;
+    border-radius: 50%;
+    z-index: 100;
+    border:2px solid #A9A9AC;
+}
+.piotin a{
+    z-index: 100;
+}
